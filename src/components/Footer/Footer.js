@@ -1,9 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 import classNames from "classnames";
-import { List, ListItem, Container, Grid } from "@material-ui/core";
+import { Container, Grid } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import Favorite from "@material-ui/icons/Favorite";
 import styles from "assets/jss/material-kit-react/components/footerStyle.js";
 
 const useStyles = makeStyles(styles);
@@ -23,7 +22,6 @@ export default function Footer(props) {
             <a
                 href="https://github.com/rraffael/MM-Through-My-Eyes"
                 className={classes.block}
-                target="_blank"
               >
                 Github
             </a>
