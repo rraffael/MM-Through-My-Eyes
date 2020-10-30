@@ -30,19 +30,23 @@ export default function TeamSection() {
     classes.imgFluid
   );
   return (
-    <div className={classes.section}>
-      <h2 className={classes.title}>Here is our team</h2>
+    <div className={classes.section} id="team-section">
+      <h2 className={classes.title}>Team Section</h2>
       <div>
         <GridContainer>
+          <GridItem xs={12} sm={12} md={12}>
+            <h5 className={classes.description}>
+              This is the paragraph where you can write more details about your
+              product. Keep you user engaged by providing meaningful information.
+              Remember that by this time, the user is curious, otherwise he wouldn
+              {"'"}t scroll to get here. Add a button if you want the user to see
+              more.
+            </h5>
+        </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
-              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src={team1} alt="..." className={imageClasses} />
-              </GridItem>
               <h4 className={classes.cardTitle}>
                 Gigi Hadid
-                <br />
-                <small className={classes.smallTitle}>Model</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
@@ -52,40 +56,12 @@ export default function TeamSection() {
                   follow them outside the site.
                 </p>
               </CardBody>
-              <CardFooter className={classes.justifyCenter}>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-twitter"} />
-                </Button>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-instagram"} />
-                </Button>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-facebook"} />
-                </Button>
-              </CardFooter>
             </Card>
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
-              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src={team2} alt="..." className={imageClasses} />
-              </GridItem>
               <h4 className={classes.cardTitle}>
-                Christian Louboutin
-                <br />
-                <small className={classes.smallTitle}>Designer</small>
+                Gigi Hadid
               </h4>
               <CardBody>
                 <p className={classes.description}>
@@ -95,33 +71,11 @@ export default function TeamSection() {
                   follow them outside the site.
                 </p>
               </CardBody>
-              <CardFooter className={classes.justifyCenter}>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-twitter"} />
-                </Button>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-linkedin"} />
-                </Button>
-              </CardFooter>
             </Card>
-          </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
+          </GridItem><GridItem xs={12} sm={12} md={4}>
             <Card plain>
-              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src={team3} alt="..." className={imageClasses} />
-              </GridItem>
               <h4 className={classes.cardTitle}>
-                Kendall Jenner
-                <br />
-                <small className={classes.smallTitle}>Model</small>
+                Gigi Hadid
               </h4>
               <CardBody>
                 <p className={classes.description}>
@@ -131,29 +85,48 @@ export default function TeamSection() {
                   follow them outside the site.
                 </p>
               </CardBody>
-              <CardFooter className={classes.justifyCenter}>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-twitter"} />
-                </Button>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-instagram"} />
-                </Button>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-facebook"} />
-                </Button>
-              </CardFooter>
+            </Card>
+          </GridItem><GridItem xs={12} sm={12} md={4}>
+            <Card plain>
+              <h4 className={classes.cardTitle}>
+                Gigi Hadid
+              </h4>
+              <CardBody>
+                <p className={classes.description}>
+                  You can write here details about one of your team members. You
+                  can give more details about what they do. Feel free to add
+                  some <a href="#pablo">links</a> for people to be able to
+                  follow them outside the site.
+                </p>
+              </CardBody>
+            </Card>
+          </GridItem><GridItem xs={12} sm={12} md={4}>
+            <Card plain>
+              <h4 className={classes.cardTitle}>
+                Gigi Hadid
+              </h4>
+              <CardBody>
+                <p className={classes.description}>
+                  You can write here details about one of your team members. You
+                  can give more details about what they do. Feel free to add
+                  some <a href="#pablo">links</a> for people to be able to
+                  follow them outside the site.
+                </p>
+              </CardBody>
+            </Card>
+          </GridItem><GridItem xs={12} sm={12} md={4}>
+            <Card plain>
+              <h4 className={classes.cardTitle}>
+                Gigi Hadid
+              </h4>
+              <CardBody>
+                <p className={classes.description}>
+                  You can write here details about one of your team members. You
+                  can give more details about what they do. Feel free to add
+                  some <a href="#pablo">links</a> for people to be able to
+                  follow them outside the site.
+                </p>
+              </CardBody>
             </Card>
           </GridItem>
         </GridContainer>

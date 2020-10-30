@@ -18,10 +18,10 @@ const useStyles = makeStyles(styles);
 export default function ProductSection() {
   const classes = useStyles();
   return (
-    <div className={classes.section} id="product-section">
+    <div className={classes.section} id="report-section">
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Product Section</h2>
+          <h2 className={classes.title}>Report Section</h2>
           <h5 className={classes.description}>
             This is the paragraph where you can write more details about your
             product. Keep you user engaged by providing meaningful information.

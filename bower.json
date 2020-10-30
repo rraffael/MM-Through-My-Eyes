@@ -1,19 +1,17 @@
 {
-  "name": "material-kit-react",
-  "homepage": "https://github.com/creativetimofficial/material-kit-react",
+  "name": "through-my-eyes",
+  "homepage": "https://github.com/rraffael/MM-Through-My-Eyes",
   "authors": [
-    "creative-tim"
+    "raffael-de-castro-rodrigues"
   ],
-  "description": "A Badass Material-UI Kit based on Material Design",
+  "description": "A static website project made with materia-ui Kit from creative-tim",
   "main": "dist/index.js",
   "keywords": [
     "material",
     "design",
-    "material-ui",
-    "google",
-    "twitter"
+    "material-ui"
   ],
-  "license": "Creative TIM License",
+  "license": "MIT License",
   "ignore": [
     "**/.*",
     "node_modules",
