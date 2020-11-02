@@ -1,12 +1,12 @@
 import React from "react";
-import { makeStyles, Typography } from "@material-ui/core";
+import { makeStyles, Typography, CardMedia } from "@material-ui/core";
 import WhyIcon from "@material-ui/icons/Chat";
 import WhoIcon from '@material-ui/icons/AccessibilityNew';
 import HowIcon from '@material-ui/icons/AccountTree';
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import InfoArea from "components/InfoArea/InfoArea.js";
-
+import UserExperience from "assets/img/UserExperience.png";
 import styles from "assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
 
 const useStyles = makeStyles(styles);
@@ -21,19 +21,19 @@ export default function ProductSection() {
               Project Information
           </Typography>
           <div align="left" className={classes.description}>
-            <Typography component="h1" variant="h6"  paragraph="true">
+            <Typography component="h3" variant="h6"  paragraph="true">
               Through My Eyes is an immersive short film capable of sensitizing the public regarding the mistreatment of 
                 pets based on the 5 freedoms of animal welfare: Freedom from hunger or thirst; Freedom from discomfort; 
                 Freedom from pain; Freedom to express normal behaviour; Freedom from fear and distress.
             </Typography>
-            <Typography component="h1" variant="h6" paragraph="true">
+            <Typography component="h3" variant="h6" paragraph="true">
               Using an immersive short  film, we intend to confront viewers with a cruel reality,  giving a voice to pets.
             </Typography>
-            <Typography component="h1" variant="h6" paragraph="true">
+            <Typography component="h3" variant="h6" paragraph="true">
               We want users to question themselves about Human and Animal freedom, making them realize that no animal should 
                 suffer through human hands. Our main goal is to shock people in order to make a change. 
             </Typography>
-            <Typography component="h1" variant="h6" paragraph="true">
+            <Typography component="h3" variant="h6" paragraph="true">
               Our project is mainly aimed at young adults who may come to make a difference, but it also targets everyone 
                 who has never considered the freedoms or rights of domestic animals. 
             </Typography>
@@ -73,6 +73,16 @@ export default function ProductSection() {
             />
           </GridItem>
         </GridContainer>
+        <div>
+          <GridContainer justify="center">
+            <GridItem xs={12} sm={12} md={8}>
+              <Typography component="h2" variant="h4" className={classes.title}>
+                User Experience
+              </Typography>
+              <img src={UserExperience} width = "100%" height="auto"/>
+            </GridItem>
+          </GridContainer>
+        </div>
       </div>
     </div>
   );
