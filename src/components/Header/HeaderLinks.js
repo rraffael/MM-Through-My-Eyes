@@ -12,6 +12,23 @@ export default function HeaderLinks(props) {
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
         <Button
+          href="https://docs.google.com/forms/d/1Hl-jBv43TZj6s1bh48L-I2sckk-YMUSqwKriKi6d7AU/edit"
+          color="danger"
+          target="_blank"
+          className={classes.navLink}
+          > Formulary
+        </Button>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Button
+          href="#project-section"
+          color="transparent"
+          className={classes.navLink}
+        > Project Information
+        </Button>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Button
           href="#team-section"
           color="transparent"
           className={classes.navLink}
@@ -20,26 +37,10 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="#idea-section"
-          color="transparent"
-          className={classes.navLink}
-        > Idea
-        </Button>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Button
-          href="#product-section"
-          color="transparent"
-          className={classes.navLink}
-          > Product
-        </Button>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Button
           href="#work-section"
           color="transparent"
           className={classes.navLink}
-          > Work
+          > Teaser
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
@@ -47,7 +48,7 @@ export default function HeaderLinks(props) {
           href="#report-section"
           color="transparent"
           className={classes.navLink}
-          > Report
+          > Downloads
         </Button>
       </ListItem>
     </List>

@@ -12,7 +12,7 @@ import styles from "assets/jss/material-kit-react/views/landingPage.js";
 import ProductSection from "./Sections/ProductSection.js";
 import TeamSection from "./Sections/TeamSection.js";
 import WorkSection from "./Sections/WorkSection.js";
-import IdeaSection from "./Sections/IdeaSection.js";
+import ProjectSection from "./Sections/Project.js";
 import ReportSection from "./Sections/ReportSection.js";
 
 const dashboardRoutes = [];
@@ -39,9 +39,10 @@ export default function LandingPage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>Through My Eyes</h1>
+              <h1 className={classes.title}>Video</h1>
+              <br />
               <Button
-                color="danger"
+                color="primary"
                 size="lg"
                 href=""
                 target="_blank"
@@ -56,8 +57,8 @@ export default function LandingPage(props) {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
+          <ProjectSection />
           <TeamSection />
-          <IdeaSection />
           <ProductSection />
           <WorkSection />
           <ReportSection />
