@@ -1,27 +1,26 @@
 {
   "files": {
     "main.css": "/MM-Through-My-Eyes/static/css/main.27e9d3dc.chunk.css",
-    "main.js": "/MM-Through-My-Eyes/static/js/main.2d73d333.chunk.js",
-    "main.js.map": "/MM-Through-My-Eyes/static/js/main.2d73d333.chunk.js.map",
+    "main.js": "/MM-Through-My-Eyes/static/js/main.81ccad24.chunk.js",
+    "main.js.map": "/MM-Through-My-Eyes/static/js/main.81ccad24.chunk.js.map",
     "runtime-main.js": "/MM-Through-My-Eyes/static/js/runtime-main.531ffd70.js",
     "runtime-main.js.map": "/MM-Through-My-Eyes/static/js/runtime-main.531ffd70.js.map",
-    "static/js/2.99dab617.chunk.js": "/MM-Through-My-Eyes/static/js/2.99dab617.chunk.js",
-    "static/js/2.99dab617.chunk.js.map": "/MM-Through-My-Eyes/static/js/2.99dab617.chunk.js.map",
+    "static/js/2.750bf720.chunk.js": "/MM-Through-My-Eyes/static/js/2.750bf720.chunk.js",
+    "static/js/2.750bf720.chunk.js.map": "/MM-Through-My-Eyes/static/js/2.750bf720.chunk.js.map",
     "index.html": "/MM-Through-My-Eyes/index.html",
-    "precache-manifest.eed68ef0bcdbfef62edf587dbdf85125.js": "/MM-Through-My-Eyes/precache-manifest.eed68ef0bcdbfef62edf587dbdf85125.js",
+    "precache-manifest.a52e7b3a5f31839b7d0d44236538d894.js": "/MM-Through-My-Eyes/precache-manifest.a52e7b3a5f31839b7d0d44236538d894.js",
     "service-worker.js": "/MM-Through-My-Eyes/service-worker.js",
     "static/css/main.27e9d3dc.chunk.css.map": "/MM-Through-My-Eyes/static/css/main.27e9d3dc.chunk.css.map",
-    "static/js/2.99dab617.chunk.js.LICENSE.txt": "/MM-Through-My-Eyes/static/js/2.99dab617.chunk.js.LICENSE.txt",
+    "static/js/2.750bf720.chunk.js.LICENSE.txt": "/MM-Through-My-Eyes/static/js/2.750bf720.chunk.js.LICENSE.txt",
     "static/media/UserExperience.png": "/MM-Through-My-Eyes/static/media/UserExperience.6e9d2b5f.png",
-    "static/media/avatar.jpg": "/MM-Through-My-Eyes/static/media/avatar.f1d71f77.jpg",
-    "static/media/christian.jpg": "/MM-Through-My-Eyes/static/media/christian.56633ed3.jpg",
-    "static/media/kendall.jpg": "/MM-Through-My-Eyes/static/media/kendall.e0508cc9.jpg",
-    "static/media/landing-bg.jpg": "/MM-Through-My-Eyes/static/media/landing-bg.df8fd3ef.jpg"
+    "static/media/ines.jpg": "/MM-Through-My-Eyes/static/media/ines.817956d4.jpg",
+    "static/media/landing-bg.jpg": "/MM-Through-My-Eyes/static/media/landing-bg.df8fd3ef.jpg",
+    "static/media/raffael.png": "/MM-Through-My-Eyes/static/media/raffael.8b4737d9.png"
   },
   "entrypoints": [
     "static/js/runtime-main.531ffd70.js",
-    "static/js/2.99dab617.chunk.js",
+    "static/js/2.750bf720.chunk.js",
     "static/css/main.27e9d3dc.chunk.css",
-    "static/js/main.2d73d333.chunk.js"
+    "static/js/main.81ccad24.chunk.js"
   ]
 }
