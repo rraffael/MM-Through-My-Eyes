@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/MM-Through-My-Eyes/static/css/main.27e9d3dc.chunk.css",
-    "main.js": "/MM-Through-My-Eyes/static/js/main.7dcd792c.chunk.js",
-    "main.js.map": "/MM-Through-My-Eyes/static/js/main.7dcd792c.chunk.js.map",
+    "main.js": "/MM-Through-My-Eyes/static/js/main.ed427bbb.chunk.js",
+    "main.js.map": "/MM-Through-My-Eyes/static/js/main.ed427bbb.chunk.js.map",
     "runtime-main.js": "/MM-Through-My-Eyes/static/js/runtime-main.531ffd70.js",
     "runtime-main.js.map": "/MM-Through-My-Eyes/static/js/runtime-main.531ffd70.js.map",
-    "static/js/2.ee551f72.chunk.js": "/MM-Through-My-Eyes/static/js/2.ee551f72.chunk.js",
-    "static/js/2.ee551f72.chunk.js.map": "/MM-Through-My-Eyes/static/js/2.ee551f72.chunk.js.map",
+    "static/js/2.3cf1f8ab.chunk.js": "/MM-Through-My-Eyes/static/js/2.3cf1f8ab.chunk.js",
+    "static/js/2.3cf1f8ab.chunk.js.map": "/MM-Through-My-Eyes/static/js/2.3cf1f8ab.chunk.js.map",
     "index.html": "/MM-Through-My-Eyes/index.html",
-    "precache-manifest.da2ab120df778b01d6fe6bd7aab93ef3.js": "/MM-Through-My-Eyes/precache-manifest.da2ab120df778b01d6fe6bd7aab93ef3.js",
+    "precache-manifest.5c00fba852f042e3d1d950b875b703d4.js": "/MM-Through-My-Eyes/precache-manifest.5c00fba852f042e3d1d950b875b703d4.js",
     "service-worker.js": "/MM-Through-My-Eyes/service-worker.js",
     "static/css/main.27e9d3dc.chunk.css.map": "/MM-Through-My-Eyes/static/css/main.27e9d3dc.chunk.css.map",
-    "static/js/2.ee551f72.chunk.js.LICENSE.txt": "/MM-Through-My-Eyes/static/js/2.ee551f72.chunk.js.LICENSE.txt",
+    "static/js/2.3cf1f8ab.chunk.js.LICENSE.txt": "/MM-Through-My-Eyes/static/js/2.3cf1f8ab.chunk.js.LICENSE.txt",
     "static/media/Benchmarking.pdf": "/MM-Through-My-Eyes/static/media/Benchmarking.981a4290.pdf",
     "static/media/Pitch.pdf": "/MM-Through-My-Eyes/static/media/Pitch.472e1e25.pdf",
     "static/media/References.pdf": "/MM-Through-My-Eyes/static/media/References.d9397fdf.pdf",
@@ -19,12 +19,13 @@
     "static/media/UserExperience.png": "/MM-Through-My-Eyes/static/media/UserExperience.6e9d2b5f.png",
     "static/media/ines.jpg": "/MM-Through-My-Eyes/static/media/ines.817956d4.jpg",
     "static/media/landing-bg.jpg": "/MM-Through-My-Eyes/static/media/landing-bg.df8fd3ef.jpg",
-    "static/media/raffael.png": "/MM-Through-My-Eyes/static/media/raffael.8b4737d9.png"
+    "static/media/raffael.png": "/MM-Through-My-Eyes/static/media/raffael.8b4737d9.png",
+    "static/media/rui.jpg": "/MM-Through-My-Eyes/static/media/rui.0175914b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.531ffd70.js",
-    "static/js/2.ee551f72.chunk.js",
+    "static/js/2.3cf1f8ab.chunk.js",
     "static/css/main.27e9d3dc.chunk.css",
-    "static/js/main.7dcd792c.chunk.js"
+    "static/js/main.ed427bbb.chunk.js"
   ]
 }
