@@ -9,11 +9,10 @@ import Button from "components/CustomButtons/Button.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import Parallax from "components/Parallax/Parallax.js";
 import styles from "assets/jss/material-kit-react/views/landingPage.js";
-import ProductSection from "./Sections/ProductSection.js";
+import Marketing from "./Sections/Marketing.js";
 import Team from "./Sections/Team.js";
-import WorkSection from "./Sections/WorkSection.js";
-import ProjectSection from "./Sections/Project.js";
-import ReportSection from "./Sections/ReportSection.js";
+import Downloads from "./Sections/Downloads.js";
+import Project from "./Sections/Project.js";
 
 const dashboardRoutes = [];
 const useStyles = makeStyles(styles);
@@ -57,11 +56,10 @@ export default function LandingPage(props) {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
-          <ProjectSection />
+          <Project />
           <Team />
-          <ProductSection />
-          <WorkSection />
-          <ReportSection />
+          <Marketing   />
+          <Downloads />
         </div>
       </div>
       <Footer />

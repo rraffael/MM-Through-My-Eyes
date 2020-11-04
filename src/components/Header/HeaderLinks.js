@@ -13,7 +13,7 @@ export default function HeaderLinks(props) {
       <ListItem className={classes.listItem}>
         <Button
           href="https://docs.google.com/forms/d/1Hl-jBv43TZj6s1bh48L-I2sckk-YMUSqwKriKi6d7AU/edit"
-          color="danger"
+          color="warning"
           target="_blank"
           className={classes.navLink}
           > Formulary
@@ -40,7 +40,7 @@ export default function HeaderLinks(props) {
           href="#work-section"
           color="transparent"
           className={classes.navLink}
-          > Teaser
+          > Marketing Contents
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>

@@ -23,15 +23,17 @@ export default function TeamSection() {
   );
   return (
     <div className={classes.section} id="team-section">
-      <h2 className={classes.title}>Team Section</h2>
+      <Typography component="h1" variant="h2" className={classes.title}>
+        Team
+      </Typography>
       <div>
         <GridContainer>
           <GridItem xs={12} sm={12} md={12}>
-            <h5 className={classes.description}>
+            <Typography componen="h2" variant="h6" className={classes.description}>
               We are the team of students of the University of Porto that created this project 
               in Laboratory Multimedia discipline on Multimedia Master degree. 
               Follow a little about us, so don't hesitate to contact us if it's of interest to you!
-            </h5>
+            </Typography>
         </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
