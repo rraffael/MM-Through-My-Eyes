@@ -10,6 +10,7 @@ import CardHeader from "components/Card/CardHeader";
 import CardFooter from "components/Card/CardFooter";
 import raffael from 'assets/img/faces/raffael.png';
 import ines from 'assets/img/faces/ines.jpg';
+import rui from 'assets/img/faces/rui.jpg';
 import BehanceIcon from 'assets/img/behance-icon.png';
 import SketchfabIcon from 'assets/img/sketchfab-icon.png';
 
@@ -148,6 +149,9 @@ export default function TeamSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
+              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+                <img src={rui} alt="..." className={imageClasses} />
+              </GridItem>
               <Typography component="h4" variant="h5" className={classes.title}>
                 Rui Barbosa
               </Typography>
