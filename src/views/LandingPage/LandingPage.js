@@ -39,7 +39,7 @@ export default function LandingPage(props) {
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
               <CardMedia>
-                <ReactPlayer url='https://www.youtube.com/watch?v=EJ09pSuA9hw'/>
+                <ReactPlayer url='https://www.youtube.com/embed/C_pSFnH5JKM?start=14'/>
               </CardMedia>
             </GridItem>
           </GridContainer>

@@ -23,7 +23,7 @@ export default function ProductSection() {
             Here goes our Teaser and other marketing contents.
           </Typography>
           <CardMedia align="center">
-                <ReactPlayer url='https://player.vimeo.com/video/37877314'/>
+                <ReactPlayer url='https://www.youtube.com/embed/8e1I94tIzgM'/>
           </CardMedia>
         </GridItem>
       </GridContainer>
