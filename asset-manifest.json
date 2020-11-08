@@ -1,33 +1,36 @@
 {
   "files": {
     "main.css": "/MM-Through-My-Eyes/static/css/main.27e9d3dc.chunk.css",
-    "main.js": "/MM-Through-My-Eyes/static/js/main.8f1a84c1.chunk.js",
-    "main.js.map": "/MM-Through-My-Eyes/static/js/main.8f1a84c1.chunk.js.map",
+    "main.js": "/MM-Through-My-Eyes/static/js/main.3984fbcd.chunk.js",
+    "main.js.map": "/MM-Through-My-Eyes/static/js/main.3984fbcd.chunk.js.map",
     "runtime-main.js": "/MM-Through-My-Eyes/static/js/runtime-main.531ffd70.js",
     "runtime-main.js.map": "/MM-Through-My-Eyes/static/js/runtime-main.531ffd70.js.map",
-    "static/js/2.abe726e4.chunk.js": "/MM-Through-My-Eyes/static/js/2.abe726e4.chunk.js",
-    "static/js/2.abe726e4.chunk.js.map": "/MM-Through-My-Eyes/static/js/2.abe726e4.chunk.js.map",
+    "static/js/2.b5da553f.chunk.js": "/MM-Through-My-Eyes/static/js/2.b5da553f.chunk.js",
+    "static/js/2.b5da553f.chunk.js.map": "/MM-Through-My-Eyes/static/js/2.b5da553f.chunk.js.map",
     "index.html": "/MM-Through-My-Eyes/index.html",
-    "precache-manifest.b3aed82455b246c79f74b8362552f8d3.js": "/MM-Through-My-Eyes/precache-manifest.b3aed82455b246c79f74b8362552f8d3.js",
+    "precache-manifest.7bf379ad0f50c18ef8d4d2a05ca484e4.js": "/MM-Through-My-Eyes/precache-manifest.7bf379ad0f50c18ef8d4d2a05ca484e4.js",
     "service-worker.js": "/MM-Through-My-Eyes/service-worker.js",
     "static/css/main.27e9d3dc.chunk.css.map": "/MM-Through-My-Eyes/static/css/main.27e9d3dc.chunk.css.map",
-    "static/js/2.abe726e4.chunk.js.LICENSE.txt": "/MM-Through-My-Eyes/static/js/2.abe726e4.chunk.js.LICENSE.txt",
-    "static/media/Benchmarking.pdf": "/MM-Through-My-Eyes/static/media/Benchmarking.981a4290.pdf",
+    "static/js/2.b5da553f.chunk.js.LICENSE.txt": "/MM-Through-My-Eyes/static/js/2.b5da553f.chunk.js.LICENSE.txt",
+    "static/media/Benchmarking.pdf": "/MM-Through-My-Eyes/static/media/Benchmarking.cae1ee85.pdf",
     "static/media/Pitch.pdf": "/MM-Through-My-Eyes/static/media/Pitch.472e1e25.pdf",
     "static/media/References.pdf": "/MM-Through-My-Eyes/static/media/References.d9397fdf.pdf",
-    "static/media/Report.pdf": "/MM-Through-My-Eyes/static/media/Report.d7f9a10a.pdf",
+    "static/media/Report.pdf": "/MM-Through-My-Eyes/static/media/Report.f10891b4.pdf",
     "static/media/UserExperience.png": "/MM-Through-My-Eyes/static/media/UserExperience.6e9d2b5f.png",
     "static/media/hugo.jpg": "/MM-Through-My-Eyes/static/media/hugo.373f5e06.jpg",
     "static/media/ines.jpg": "/MM-Through-My-Eyes/static/media/ines.817956d4.jpg",
     "static/media/landing-bg.jpg": "/MM-Through-My-Eyes/static/media/landing-bg.df8fd3ef.jpg",
-    "static/media/raffael.png": "/MM-Through-My-Eyes/static/media/raffael.8b4737d9.png",
+    "static/media/logo.png": "/MM-Through-My-Eyes/static/media/logo.7513f7d1.png",
+    "static/media/noemia.png": "/MM-Through-My-Eyes/static/media/noemia.ca4cfa9e.png",
+    "static/media/poster.png": "/MM-Through-My-Eyes/static/media/poster.21ae7574.png",
+    "static/media/raffael.png": "/MM-Through-My-Eyes/static/media/raffael.48b72575.png",
     "static/media/rui.jpg": "/MM-Through-My-Eyes/static/media/rui.0175914b.jpg",
     "static/media/tiago.jpg": "/MM-Through-My-Eyes/static/media/tiago.aa42cd9f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.531ffd70.js",
-    "static/js/2.abe726e4.chunk.js",
+    "static/js/2.b5da553f.chunk.js",
     "static/css/main.27e9d3dc.chunk.css",
-    "static/js/main.8f1a84c1.chunk.js"
+    "static/js/main.3984fbcd.chunk.js"
   ]
 }
