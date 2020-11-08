@@ -5,8 +5,11 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import styles from "assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
 import { Typography, CardMedia } from "@material-ui/core";
+import Carousel from "react-slick";
+import Card from "components/Card/Card.js";
 import poster from 'assets/img/poster.png';
 import logo from 'assets/img/logo.png';
+
 
 const useStyles = makeStyles(styles);
 

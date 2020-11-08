@@ -1,6 +1,5 @@
 import React from "react";
 import { makeStyles, Typography, Paper } from "@material-ui/core";
-import classNames from "classnames";
 import WhyIcon from "@material-ui/icons/Chat";
 import WhoIcon from '@material-ui/icons/AccessibilityNew';
 import HowIcon from '@material-ui/icons/AccountTree';
@@ -38,6 +37,15 @@ import storyboard24 from "assets/img/storyboard/24.jpg";
 import storyboard25 from "assets/img/storyboard/25.jpg";
 import storyboard26 from "assets/img/storyboard/26.jpg";
 import storyboard27 from "assets/img/storyboard/27.jpg";
+import makingof1 from "assets/img/making-of/1.jpg";
+import makingof2 from "assets/img/making-of/2.jpg";
+import makingof3 from "assets/img/making-of/3.jpg";
+import makingof4 from "assets/img/making-of/4.jpg";
+import makingof5 from "assets/img/making-of/5.jpg";
+import makingof6 from "assets/img/making-of/6.jpg";
+import makingof7 from "assets/img/making-of/7.jpg";
+import makingof8 from "assets/img/making-of/8.jpg";
+import makingof9 from "assets/img/making-of/9.jpg";
 
 const useStyles = makeStyles(styles);
 
@@ -45,13 +53,13 @@ export default function ProductSection() {
   const classes = useStyles();
   const settings = {
     infinite: true,
-    speed: 500,
+    speed: 750,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     adaptiveHeight: true
   };
-  const images = [
+  const storyBoards = [
     [storyboard1, "Storyboard1"],
     [storyboard2, "Storyboard2"],
     [storyboard3, "Storyboard3"],
@@ -79,6 +87,17 @@ export default function ProductSection() {
     [storyboard25, "Storyboard25"],
     [storyboard26, "Storyboard26"],
     [storyboard27, "Storyboard27"],
+  ];
+  const makingOf = [
+    [makingof1, "Making-of-1"],
+    [makingof2, "Making-of-2"],
+    [makingof3, "Making-of-3"],
+    [makingof4, "Making-of-4"],
+    [makingof5, "Making-of-5"],
+    [makingof6, "Making-of-6"],
+    [makingof7, "Making-of-7"],
+    [makingof8, "Making-of-8"],
+    [makingof9, "Making-of-9"],
   ];
   return (
     <div className={classes.section} id="project-section">
@@ -150,7 +169,7 @@ export default function ProductSection() {
             <GridItem xs={12} sm={12} md={8} className={classes.marginAuto}>
               <Card carousel>
                 <Carousel {...settings}>
-                  {images.map(i => (
+                  {storyBoards.map(i => (
                     <div>
                       <img src={i[0]} alt={i[1]} className="slick-image" />
                     </div>
@@ -167,6 +186,26 @@ export default function ProductSection() {
                 User Experience
               </Typography>
               <img src={UserExperience} width = "100%" height="auto"/>
+            </GridItem>
+          </GridContainer>
+        </div>
+        <div className={classes.section}>
+          <GridContainer justify="center">
+            <GridItem xs={12} sm={12} md={8}>
+              <Typography component="h2" variant="h4" className={classes.title}>
+                Making-of
+              </Typography>
+            </GridItem>
+            <GridItem xs={12} sm={12} md={8} className={classes.marginAuto}>
+              <Card carousel>
+                <Carousel {...settings}>
+                  {makingOf.map(i => (
+                    <div>
+                      <img src={i[0]} alt={i[1]} className="slick-image" />
+                    </div>
+                  ))}
+                </Carousel>
+              </Card>
             </GridItem>
           </GridContainer>
         </div>
