@@ -4,7 +4,7 @@
   "authors": [
     "raffael-de-castro-rodrigues"
   ],
-  "description": "A static website project made with materia-ui Kit from creative-tim",
+  "description": "A static website project made with materia-ui Kit template from creative-tim",
   "main": "dist/index.js",
   "keywords": [
     "material",
