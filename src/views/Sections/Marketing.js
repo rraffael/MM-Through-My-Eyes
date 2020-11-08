@@ -12,7 +12,7 @@ const useStyles = makeStyles(styles);
 export default function ProductSection() {
   const classes = useStyles();
   return (
-    <div className={classes.section} id="marketing-contents">
+    <div className={classes.section} id="marketing-section">
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={12}>
           <Typography component="h1" variant="h2" className={classes.title}>

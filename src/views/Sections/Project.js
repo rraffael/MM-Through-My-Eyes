@@ -107,7 +107,7 @@ export default function ProductSection() {
           <Typography component="h1" variant="h2" className={classes.title}>
               Project Information
           </Typography>
-          <div align="left">
+          <div align="justify" >
             <Typography component="h2" variant="h6"  paragraph="true" className={classes.description}>
               Through My Eyes is an immersive short film capable of sensitizing the public regarding the mistreatment of 
                 pets based on the 5 freedoms of animal welfare: Freedom from hunger or thirst; Freedom from discomfort; 

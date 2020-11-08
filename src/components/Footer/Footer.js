@@ -24,7 +24,8 @@ export default function Footer(props) {
                 className={classes.block}
               >
                 <Typography className={classes.description}>
-                  Github
+                  Github { }
+                  <i className={classes.socials + " fab fa-github"} />
                 </Typography>
             </a>
           </Grid>

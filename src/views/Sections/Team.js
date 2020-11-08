@@ -33,7 +33,7 @@ export default function TeamSection() {
       <div>
         <GridContainer>
           <GridItem xs={12} sm={12} md={12}>
-            <Typography componen="h2" variant="h6" className={classes.description}>
+            <Typography component="h2" variant="h6" className={classes.description}>
               We are the team of students of the University of Porto that created this project 
               in Laboratory Multimedia discipline on Multimedia Master degree. 
               Follow a little about us, so don't hesitate to contact us if it's of your interest!
