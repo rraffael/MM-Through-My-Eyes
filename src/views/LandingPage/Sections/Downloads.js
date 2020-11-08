@@ -30,7 +30,7 @@ export default function WorkSection() {
               target="_blank"
             >
               <i className={classes.socials + " fas fa-download"} />
-              <Typography>
+              <Typography  className={classes.description}>
               Report
               </Typography>
               
@@ -44,7 +44,7 @@ export default function WorkSection() {
               target="_blank"
             >
               <i className={classes.socials + " fas fa-download"} />
-              <Typography>
+              <Typography  className={classes.description}>
               Pitch
               </Typography>
               
@@ -58,7 +58,7 @@ export default function WorkSection() {
               target="_blank"
             >
               <i className={classes.socials + " fas fa-download"} />
-              <Typography>
+              <Typography  className={classes.description}>
                References 
               </Typography>
               
@@ -72,7 +72,7 @@ export default function WorkSection() {
               target="_blank"
             >
               <i className={classes.socials + " fas fa-download"} />
-              <Typography >
+              <Typography  className={classes.description}>
                 Benchmarking
               </Typography>
             </Button>

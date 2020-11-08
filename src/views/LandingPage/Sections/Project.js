@@ -106,20 +106,20 @@ export default function ProductSection() {
           <Typography component="h1" variant="h2" className={classes.title}>
               Project Information
           </Typography>
-          <div align="left" className={classes.description}>
-            <Typography component="h2" variant="h6"  paragraph="true">
+          <div align="left">
+            <Typography component="h2" variant="h6"  paragraph="true" className={classes.description}>
               Through My Eyes is an immersive short film capable of sensitizing the public regarding the mistreatment of 
                 pets based on the 5 freedoms of animal welfare: Freedom from hunger or thirst; Freedom from discomfort; 
                 Freedom from pain; Freedom to express normal behaviour; Freedom from fear and distress.
             </Typography>
-            <Typography component="h2" variant="h6" paragraph="true">
+            <Typography component="h2" variant="h6" paragraph="true" className={classes.description}>
               Using an immersive short  film, we intend to confront viewers with a cruel reality,  giving a voice to pets.
             </Typography>
-            <Typography component="h2" variant="h6" paragraph="true">
+            <Typography component="h2" variant="h6" paragraph="true" className={classes.description}>
               We want users to question themselves about Human and Animal freedom, making them realize that no animal should 
                 suffer through human hands. Our main goal is to shock people in order to make a change. 
             </Typography>
-            <Typography component="h2" variant="h6" paragraph="true">
+            <Typography component="h2" variant="h6" paragraph="true" className={classes.description}>
               Our project is mainly aimed at young adults who may come to make a difference, but it also targets everyone 
                 who has never considered the freedoms or rights of domestic animals. 
             </Typography>
@@ -162,7 +162,7 @@ export default function ProductSection() {
         <div className={classes.section}>
           <GridContainer justify="center">
             <GridItem xs={12} sm={12} md={8}>
-              <Typography component="h2" variant="h4" className={classes.title}>
+              <Typography component="h2" variant="h4" className={classes.description}>
                 Story Board
               </Typography>
             </GridItem>
@@ -182,7 +182,7 @@ export default function ProductSection() {
         <div className={classes.section}>
           <GridContainer justify="center">
             <GridItem xs={12} sm={12} md={8}>
-              <Typography component="h2" variant="h4" className={classes.title}>
+              <Typography component="h2" variant="h4" className={classes.description}>
                 User Experience
               </Typography>
               <img src={UserExperience} width = "100%" height="auto"/>
@@ -192,7 +192,7 @@ export default function ProductSection() {
         <div className={classes.section}>
           <GridContainer justify="center">
             <GridItem xs={12} sm={12} md={8}>
-              <Typography component="h2" variant="h4" className={classes.title}>
+              <Typography component="h2" variant="h4" className={classes.description}>
                 Making-of
               </Typography>
             </GridItem>

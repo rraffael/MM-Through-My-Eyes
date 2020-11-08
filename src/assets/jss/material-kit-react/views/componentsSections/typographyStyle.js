@@ -24,7 +24,7 @@ const typographyStyle = {
     width: "100%"
   },
   note: {
-    fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
+    fontFamily: '"PT Mono", monospace',
     bottom: "10px",
     color: "#c0c1c2",
     display: "block",

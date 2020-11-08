@@ -17,7 +17,8 @@ const reportPageStyle = {
     margin: "1.071rem auto 0",
     maxWidth: "600px",
     color: "#999",
-    textAlign: "center !important"
+    textAlign: "center !important",
+    fontFamily: '"PT Mono", monospace',
   },
   name: {
     marginTop: "-80px"
